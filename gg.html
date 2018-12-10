@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="utf-8">
+	  <title>Это я сделала БутстрЭп</title>
+
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <!-- Latest compiled and minified CSS -->
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	  <!-- Optional theme -->
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link rel="stylesheet" href="dopstyle.css">
+    </head>
+	<body>
+  
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item active"><a href="gg.html"> Настенька</a></li>
+			</ol>
+		</nav>
+		
+		<div class="container-fluid">
+		  <nav class="navbar navbar-default navbar-inverse" role="navigation">
+			<div class="container-fluid">
+			 
+			
+				<nav class="navbar navbar-default" role="navigation">
+				  <!-- Brand and toggle get grouped for better mobile display -->
+				  <div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					  <span class="sr-only">Toggle navigation</span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Настенька</a>
+				  </div>
+
+
+				  <div class="collapse navbar-collapse navbar-inverse navbar-ex1-collapse">
+					<ul class="nav navbar-nav">
+					  <li><a href="cat.html">Котя</a></li>
+					  <li><a href="formula.html">Формулы</a></li>
+					  <li class="root">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Выпадает <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+						  <li><a href="#">Приветик</a></li>
+						  <li class="dropdown-submenu"> <a tabindex="-1" href="#">Ента тоже выпадает</a>
+							  <ul class="dropdown-menu">
+								  <li><a tabindex="-1" href="#">Ля</a>
+								  </li>
+								  <li><a href="#">Ля Ля</a>
+								  </li>
+								  <li><a href="#">Ляяяяяя</a>
+								  </li>
+							  </ul>
+						  </li>
+						</ul>
+					  </li>
+					</ul>
+				  </div>
+				</nav>
+			</div>
+		   </nav>
+		</div>
+
+		<div id="testCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Индикаторы карусели -->
+			<ol class="carousel-indicators">
+				<!-- Перейти к слайду №0 с помощью соответствующего атрибута с индексом data-slide-to="0" -->
+				<li data-target="#testCarousel" data-slide-to="0" class="active"></li>
+				<!-- Перейти к слайду №1 с помощью соответствующего индекса data-slide-to="1" -->
+				<li data-target="#testCarousel" data-slide-to="1"></li>
+				<!-- Перейти к слайду №1 с помощью соответствующего индекса data-slide-to="2" -->
+				<li data-target="#testCarousel" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Слайды карусели -->
+			<div class="carousel-inner">
+				<!-- Слайд 1 -->
+				<div class="item active">
+					<img src="img/kosmos1.jpg">
+				</div>
+				<!-- Слайд 2 -->
+				<div class="item">
+					<img src="img/kosmos2.jpg">
+				</div>
+				<!-- Слайд 3 -->
+				<div class="item">
+					<img src="img/kosmos3.jpg">
+				</div>
+			</div>
+
+			<!-- Навигация карусели (следующий или предыдущий слайд) -->
+			<!-- Кнопка, переход на предыдущий слайд с помощью атрибута data-slide="prev" -->
+			<a class="left carousel-control" href="#testCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<!-- Кнопка, переход на следующий слайд с помощью атрибута data-slide="next" -->
+			<a class="right carousel-control" href="#testCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+		<div>
+		    <!-- Навигация -->
+		    <ul class="nav nav-tabs" role="tablist">
+			  <li class="active"><a href="#table1" aria-controls="table1" role="tab" data-toggle="tab">Таблица 1</a></li>
+			  <li><a href="#table2" aria-controls="table2" role="tab" data-toggle="tab">Таблица 2</a></li>
+			  <li><a href="#table3" aria-controls="table3" role="tab" data-toggle="tab">Таблица 3</a></li>
+			  <li><a href="#badges" aria-controls="badges" role="tab" data-toggle="tab">Бейджи и подсказки</a></li>
+			   <li><a href="#media" aria-controls="media" role="tab" data-toggle="tab">Медиа</a></li>
+			   <li><a href="#panel" aria-controls="panel" role="tab" data-toggle="tab">Панель</a></li>
+		    </ul>
+		    <!-- Содержимое вкладок -->
+		    <div class="tab-content">
+				<div role="tabpanel" class="tab-pane active" id="table1">
+					<table class="table table-inverse">
+						<thead>
+							<tr>
+								<th>
+									<div class="container-right-side">
+										<span class="glyphicon glyphicon-globe"></span>
+									</div>
+								</th>
+								<th>Социальная сеть</th>
+								<th>Ссылка</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">
+									<div class="container-right-side">
+										<span class="glyphicon glyphicon-plane"></span>
+									</div>
+								<th>Instagram</th>
+								<td><a href = "https://www.instagram.com/lppttssa">https://www.instagram.com/lppttssa</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-leaf"></span></div></th>
+								<td>Vk</td>
+								<td><a href = "https://vk.com/lppttssa">https://vk.com/lppttssa</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-eye-open"></span></div></th>
+								<td>Facebook</td>
+								<td><a href = "https://ru-ru.facebook.com/">https://facebook.com</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-tint"></span></div></th>
+								<td>Twitter</td>
+								<td><a href = "https://twitter.com/?lang=ru">https://twitter.com</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-fire"></span></div></th>
+								<td>WhatsApp</td>
+								<td><a href = "https://www.whatsapp.com/?lang=ru">https://www.whatsapp.com</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-tree-conifer"></span></div></th>
+								<td>Telegram</td>
+								<td><a href = "https://telegram.org/">https://telegram.org</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-tree-deciduous"></span></div></th>
+								<td>Gmail</td>
+								<td><a href = "lppttssa@gmail.com">lppttssa@gmail.com</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-ice-lolly-tasted"></span></div></th>
+								<td>Mail</td>
+								<td><a href = "nastia1206_2000@mail.ru">nastia1206_2000@mail.ru</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-grain"></span></div></th>
+								<td>Skype</td>
+								<td><a href = "https://www.skype.com/ru/">https://www.skype.com</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-cloud"></span> 
+							</div></th>
+								<td>YouTube</td>
+								<td><a href = "https://www.youtube.com/?gl=RU&hl=ru">https://www.youtube.com</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="table2">
+					<table class="table table-bordered table-inverse">
+						<thead>
+							<tr>
+								<th>
+									<div class="container-right-side">
+										<span class="glyphicon glyphicon-globe"></span>
+									</div>
+								</th>
+								<th>Социальная сеть</th>
+								<th>Ссылка</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">
+									<div class="container-right-side">
+										<span class="glyphicon glyphicon-plane"></span>
+									</div></th>
+								<td>Instagram</td>
+								<td><a href = "https://www.instagram.com/lppttssa">https://www.instagram.com/lppttssa</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-leaf"></span></div></th>
+								<td>Vk</td>
+								<td><a href = "https://vk.com/lppttssa">https://vk.com/lppttssa</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-eye-open"></span></div></th>
+								<td>Facebook</td>
+								<td><a href = "https://ru-ru.facebook.com/">https://facebook.com</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-tint"></span></div></th>
+								<td>Twitter</td>
+								<td><a href = "https://twitter.com/?lang=ru">https://twitter.com</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-fire"></span></div></th>
+								<td>WhatsApp</td>
+								<td><a href = "https://www.whatsapp.com/?lang=ru">https://www.whatsapp.com</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-tree-conifer"></span></div></th>
+								<td>Telegram</td>
+								<td><a href = "https://telegram.org/">https://telegram.org</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-tree-deciduous"></span></div></th>
+								<td>Gmail</td>
+								<td><a href = "lppttssa@gmail.com">lppttssa@gmail.com</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-ice-lolly-tasted"></span></div></th>
+								<td>Mail</td>
+								<td><a href = "nastia1206_2000@mail.ru">nastia1206_2000@mail.ru</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-grain"></span></div></th>
+								<td>Skype</td>
+								<td><a href = "https://www.skype.com/ru/">https://www.skype.com</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-cloud"></span> 
+								</div></th>
+								<td>YouTube</td>
+								<td><a href = "https://www.youtube.com/?gl=RU&hl=ru">https://www.youtube.com</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="table3">
+					<table class="table table-sm table-inverse">
+						<thead>
+							<tr>
+								<th>
+									<div class="container-right-side">
+										<span class="glyphicon glyphicon-globe"></span>
+									</div>
+								</th>
+								<th>Социальная сеть</th>
+								<th>Ссылка</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">
+									<div class="container-right-side">
+										<span class="glyphicon glyphicon-plane"></span>
+									</div>
+								<th>Instagram</th>
+								<td><a href = "https://www.instagram.com/lppttssa">https://www.instagram.com/lppttssa</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-leaf"></span></div></th>
+								<td>Vk</td>
+								<td><a href = "https://vk.com/lppttssa">https://vk.com/lppttssa</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-eye-open"></span></div></th>
+								<td>Facebook</td>
+								<td><a href = "https://ru-ru.facebook.com/">https://facebook.com</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-tint"></span></div></th>
+								<td>Twitter</td>
+								<td><a href = "https://twitter.com/?lang=ru">https://twitter.com</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-fire"></span></div></th>
+								<td>WhatsApp</td>
+								<td><a href = "https://www.whatsapp.com/?lang=ru">https://www.whatsapp.com</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-tree-conifer"></span></div></th>
+								<td>Telegram</td>
+								<td><a href = "https://telegram.org/">https://telegram.org</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-tree-deciduous"></span></div></th>
+								<td>Gmail</td>
+								<td><a href = "lppttssa@gmail.com">lppttssa@gmail.com</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-ice-lolly-tasted"></span></div></th>
+								<td>Mail</td>
+								<td><a href = "nastia1206_2000@mail.ru">nastia1206_2000@mail.ru</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-grain"></span></div></th>
+								<td>Skype</td>
+								<td><a href = "https://www.skype.com/ru/">https://www.skype.com</a></td>
+							</tr>
+							<tr>
+								<th scope="row"><div class="container-right-side">
+								<span class="glyphicon glyphicon-cloud"></span> 
+								</div></th>
+								<td colspan="2">YouTubeandmoretexttexthttps://www.youtube.com</td>
+								<td><a href = "https://www.youtube.com/?gl=RU&hl=ru"></a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				 
+				    
+				
+				<div role="tabpanel" class="tab-pane" id="badges">
+					<p>
+						<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+							Секретная информация
+						</a>
+					</p>
+					<div class="container-fluid">
+						<div class="collapse" id="collapseExample">
+							<div class="card card-body"><div class="row">
+								<div class="col-lg-1 col-sm-1">
+								</div>
+								<div class="col-lg-10 col-sm-10">
+									<!-- Бейдж, имеющий тему default -->
+									<p>2018 год –
+									<span class="label label-default">последний год всего живого</span>
+									, после которого настанет совершенно новая эра. Конец света, который должен произойти  
+									<!-- Бейдж, имеющий тему primary -->
+									<span class="label label-primary">16 декабря</span>
+									в период<!-- Бейдж, имеющий тему success -->
+									<span class="label label-success">с 18:14 до 18:36 по московскому времени</span>
+									, уже давно не для кого не секрет. Вот только <button id="btn-tooltip" class="btn btn" title="Ну и глупый значит">кто-то верит</button> в пророчество, а кто-то собирает факты; кто-то
+									<!-- Бейдж, имеющий тему info -->
+									<span class="label label-info"> с насмешкой относится</span>
+									к астрологическим прогнозам, а кто-то уже <button id="btn-tooltip" class="btn btn" title="Ну и тоже глупый значит">задумывается</button> о том - прожил ли он отведенную ему жизнь на Земле с пользой; кто-то по-прежнему старается приумножить своё
+									<!-- Бейдж, имеющий тему warning -->
+									<span class="label label-warning">материальное положение</span>
+									, а кто-то предпочел провести<!-- Бейдж, имеющий тему danger -->
+									<span class="label label-danger">остаток дней</span>
+									 с семьей, с любимыми...
+									</p>
+									<div class="col-lg-1 col-sm-1">
+									</div>
+								</div>
+								</div>
+							</div>
+					</div>	</div>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="media">
+					<ul class="media-list">
+						<li class="media">
+							<div class="media-left">
+								<a href="#">
+									<img class="media-object" src="img/piggy4.jpg" alt="Generic placeholder image">
+								</a>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Свинюша и мороженное</h4>
+								<div class="pp">Как же вы могли подумать, что я забыла про свинюх! Это вот счасливая свинюша с мороженным. Она веселится, потому что ей нравитсчя кушать эту сладкую штукенцию.</div>
+								<!-- Вложенные медиа объекта -->  
+								<div class="media m-t-2">
+										<a class="media-left" href="#">
+											<img class="media-object" src="img/piggy1.jpg" alt="Generic placeholder image">
+										</a>
+									<div class="media-body">
+										<h4 class="media-heading">Свинюша в сапожках</h4>
+										<div class="pp">Это счастливая свинюша в сапожках. Она рада, потому что может бегать по лужам и не промочит ножки, а еще она рада, потому что у нее на ножках красивые красненькие сапожки, которые всем нравятся.</div>
+										<!-- Вложенные медиа объекта -->  
+										<div class="media m-t-2">
+											<div class="media-left">
+												<a href="#">
+													<img class="media-object" src="img/piggy3.jpg" alt="Generic placeholder image">
+												</a>
+											</div>
+											<div class="media-body">
+												<h4 class="media-heading">Свинюша и пианино</h4>
+												<div class="pp">Эта свинюша счастлива, потому что у нее есть красивое голубо-зеленое пианино.
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Вложенные медиа объекта -->  
+									<div class="media m-t-2">
+										<div class="media-left">
+											<a href="#">
+												<img class="media-object" src="img/piggy2.jpg" alt="Generic placeholder image">
+											</a>
+										</div>
+										<div class="media-body">
+											<h4 class="media-heading">Свинюша на траве</h4>
+											<div class="pp">Эта свинюша рада, потому что ей нравится бегать по зеленой травке и мочить мордочку. Она нюхает цветочки и мечтает стать космонавтом.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div role="panel" class="tab-pane" id="panel">
+					<div class="container-fluid">
+						<div class="panel panel-danger">
+						  <div class="panel-heading">
+							<h3 class="panel-title">Тут должен быть крутой заголовок</h3>
+						  </div>
+						  <div class="panel-body">
+							А тут классный текст
+						  </div>
+						  <div class="panel-body">
+							И тут
+						  </div>
+						  <div class="panel-body">
+							И тут тоже
+						  </div>
+						  <div class="panel-body">
+							И здесь
+						  </div>
+						</div>
+					</div>
+					<!-- HTML-код модального окна -->
+					<div id="myModalBox" class="modal fade">
+					  <div class="modal-dialog">
+						<div class="modal-content">
+						  <!-- Заголовок модального окна -->
+						  <div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+							<h4 class="modal-title"><h3>НО Я ЖЕ ПРОСИЛА НЕ НАЖИМАТЬ</h3></h4>
+						  </div>
+						  <!-- Основное содержимое модального окна -->
+						  <div class="modal-body">
+							<h3>РАЗВЕ ЭТО ТАК СЛОЖНО?</h3>
+						  </div>
+						  <!-- Футер модального окна -->
+						  <div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Прости:(</button>
+						  </div>
+						</div>
+					  </div>
+					</div>
+					<!-- Кнопка, вызывающее модальное окно -->
+						<a href="#myModalBox" class="btn btn-danger" data-toggle="modal">НЕ НАЖИМАТЬ</a>
+				</div>
+			</div>
+		</div>	
+			
+
+		<audio controls autoplay>
+			<source src="song.mp3" type="audio/mp3">
+		</audio>	
+
+		
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</body>
+</html>

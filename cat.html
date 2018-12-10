@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="utf-8">
+	  <title>Это я сделала БутстрЭп</title>
+
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <!-- Latest compiled and minified CSS -->
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	  <!-- Optional theme -->
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link rel="stylesheet" href="dopstyle.css">
+    </head>
+	<body>
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="gg.html">Настенька</a></li>
+				<li class="breadcrumb-item active"><a href="cat.html">Котя</a></li>
+			</ol>
+		</nav>
+		
+		<div class="container-fluid">
+		  <nav class="navbar navbar-default navbar-inverse" role="navigation">
+			<div class="container-fluid">
+			  <div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					  <span class="sr-only">Навигация</span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					</button>
+				<a class="navbar-brand" href="gg.html">Настенька</a>
+			  </div>
+			</div>
+		   </nav>
+		</div>
+			<svg width="10000" height="1000">
+			<title>Кот</title>
+			<desc>Фигура головы кота</desc>
+
+			<circle cx="400" cy="350" r="150" style="stroke: white; fill: none" />
+			<circle cx="330" cy="300" r="20" stroke="white" fill="#339933" />
+			<circle cx="470" cy="300" r="20" stroke="white" fill="#339933" />
+
+			<g id="whiskers">
+				<line x1="213" y1="430" x2="590" y2="305" style="stroke: white;" />
+				<line x1="213" y1="305" x2="590" y2="430" style="stroke: white;" />
+			</g>
+			<use xlink:href="#whiskers" transform="scale(-1 1) translate(-140 0)" />
+			<!— уши -->
+			<polyline points="310 230, 330 100, 370 204" style="stroke: white; fill: none;" />
+			<polyline points="427 204, 467 100, 487 229" style="stroke: white; fill: none;" />
+			<!-- рот -->
+			<polyline points="320 410, 340 460, 360 410, 380 460, 400 410, 420 460, 440 410, 460 460, 480 410" style="stroke: white; fill: none;" />
+			<!-- нос -->
+			<path d="M 380 380 L 420 380 A 9 15 0 0 0 380 380" style="stroke: white; fill: red" />
+			<!--M-откуда начнется рисование; L(H-гориз,V-вертик)-рисование линии до этого места;
+			С-кубическая кривая линия(x1 y1, x2 y2, x y)начало кривой, конец кривойБ конец линии;
+			S-кривая(x2 y2, x y); A-дуга(rx ry x-axis-rotation large-arc-flag sweep-flag x y)
+		</svg>
+		
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</body>
+</html>
